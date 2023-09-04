@@ -26,4 +26,17 @@
     .games-container{
         margin-top: 60px;
     }
+    .play-container{
+        flex-direction: column;
+        padding: 20px;
+        gap: 20px;
+        text-align: center;
+    }
+    .angela-img{
+        width: 40%;
+        left: 0px;
+    }
+    .boy-img{
+        width: 80%;
+    }
 }
