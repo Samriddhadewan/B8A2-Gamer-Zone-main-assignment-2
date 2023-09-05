@@ -161,3 +161,27 @@ body{
     top: 60%;
     left:-25%;
 }
+/* arcade container styles starts here  */
+.arcade-container{
+    max-width: 1440px;
+    margin: 200px auto 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+}
+.box{
+    /* border: 1px solid tomato; */
+    display: flex;
+    height: 100%;
+    width: 200px;
+    padding: 5px;
+    border-radius: 50px;
+    text-align: center;
+    align-items: center;
+}
+.arcade-names{
+    font-weight: 700;
+    font-size: 15px;
+    margin-left: 10px;
+}
