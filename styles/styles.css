@@ -237,3 +237,43 @@ body{
     text-align: center;
 
 }
+/* Bonus section hover effects */
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Dark overlay */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+.play-button {
+    background-color: #ff5733; /* Adjust the button background color */
+    color: #fff; /* Button text color */
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    display: flex; /* Make the button a flex container */
+    align-items: center; /* Center the button content vertically */
+}
+.play-button i {
+    margin-right: 5px; /* Adjust as needed */
+}
+.game-item:hover .overlay {
+    opacity: 1;
+}
+.game-item img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+.game-item {
+    position: relative;
+    flex: 1;
+}
