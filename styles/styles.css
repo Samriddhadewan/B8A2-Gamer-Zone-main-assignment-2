@@ -185,3 +185,55 @@ body{
     font-size: 15px;
     margin-left: 10px;
 }
+/* footer styles starts here */
+.footer-container{
+    height: 45vh;
+    width: 100%;
+    margin-top: 20px;
+    background-color: #0B0223;
+}
+.footer-logo{
+    display: flex;
+    padding-top: 50px;
+    width: 200px;
+    margin: 0px auto ;
+    gap: 5px;
+}
+.footer-title{
+    color: white;
+}
+.footer-items{
+    display: flex;
+    color: rgba(255, 255, 255, 0.60);
+    width: 40%;
+    justify-content: space-around;
+    margin: 0 auto;
+    padding-top: 40px;
+    font-weight: 500;
+    font-size: 1rem;
+}
+.footer-icons{
+    display: flex;
+    font-size: 3rem;
+    width: 30%;
+    justify-content: space-around;
+    margin: 0px auto;
+    padding-top: 30px;
+}
+.terms-container{
+    display: flex;
+    width: 40%;
+    color: rgba(255, 255, 255, 0.60);
+    
+    justify-content: space-around;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+.credit-container{
+    color: rgba(255, 255, 255, 0.60);
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 30px;
+    text-align: center;
+
+}
