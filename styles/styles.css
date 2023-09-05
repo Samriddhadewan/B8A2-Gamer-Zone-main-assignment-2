@@ -244,7 +244,7 @@ body{
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(0, 0, 0, 0.5); /* Dark overlay */
+    background-color: rgba(0, 0, 0, 0.5);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -253,17 +253,17 @@ body{
     transition: opacity 0.3s ease-in-out;
 }
 .play-button {
-    background-color: #ff5733; /* Adjust the button background color */
-    color: #fff; /* Button text color */
+    background-color: #ff5733; 
+    color: #fff; 
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 5px;
     font-weight: bold;
-    display: flex; /* Make the button a flex container */
-    align-items: center; /* Center the button content vertically */
+    display: flex; 
+    align-items: center; 
 }
 .play-button i {
-    margin-right: 5px; /* Adjust as needed */
+    margin-right: 5px;
 }
 .game-item:hover .overlay {
     opacity: 1;
@@ -276,4 +276,16 @@ body{
 .game-item {
     position: relative;
     flex: 1;
+}
+
+.box {
+    margin: 10px;
+    border: 2px solid transparent; 
+    transition: border 0.3s, color 0.3s; 
+}
+.box:hover {
+    border-color: #F948B2;
+}
+.box:hover p {
+    color: #FF42A5;
 }
